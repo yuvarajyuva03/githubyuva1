@@ -1,12 +1,12 @@
 #adding  vscode files to github
 git create filename
 git add filename
-git commit-m "filename"
+git commit -m "filename"
 git push origin main
 
 #adding modified vscode files to github
 git add filename
-git commit-m "filename"
+git commit -m "filename"
 git push origin main
 
 #adding modified github files to vscode
