@@ -1,16 +1,22 @@
 #adding  vscode files to github
 git create filename
 git add filename
+git status
 git commit -m "filename"
 git push origin main
 
 #adding modified vscode files to github
-git add filename
+git add filename 
+git add . - adds the all modified files
 git commit -m "filename"
 git push origin main
 
 #adding modified github files to vscode
 git pull
 
-#adding created vscode folder to github
+#adding newly created vscode folder to github
 git init
+git add . - adds all modifiedfiles
+git commit -m "filenames"
+git remote add origin "new repositary link"
+git branch
